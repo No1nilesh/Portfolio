@@ -159,5 +159,37 @@ padding: 10px;
 .devInfo {
     padding: 10px 12px;
 }
+.intro h2{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 12px;
+}
+.skill{
+    height: 8px;
+    width: 200px;
+    background-color: red;
+    margin-left: 56px;
+}
+.skillMeter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    font-family: 'Fira Sans', sans-serif;
+}
 
-]
+.seventy5{
+    width: 250px;
+    background-color: green;
+    margin-left: 47px;
+}
+.fifty{
+    width: 180px;
+    background-color: yellow;
+    margin-left: 63px;
+    
+}
+.twenty5{
+    width: 90px;
+    background-color: red;
+    margin-left: 2px;
+}
