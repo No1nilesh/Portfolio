@@ -21,10 +21,10 @@
 
 .sidebar{
     background-color:#898AA6;
-    width: 434px;
+    
     height: 100vh;
     font-family: 'Fira Sans', sans-serif;
-    
+    transition: transform 0.3s ease-in;
 }
 
 .main{
@@ -192,4 +192,29 @@ padding: 10px;
     width: 90px;
     background-color: red;
     margin-left: 2px;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left:10px ;
+}
+.cross{
+    position: absolute;
+    cursor: pointer;
+    
+    margin-left: 140px;
+}
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+@media (max-width:1615px) {
+*{
+    /*background-color: red;*/
+}
+.sidebar{
+    /*transform: translate(-443px, 0px);
+    position: absolute;*/
+}
 }
