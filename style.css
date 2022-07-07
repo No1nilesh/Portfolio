@@ -154,8 +154,12 @@ padding: 10px;
     margin-left: 142px;
 }
 .blogContainer h1{
-    margin: 40px 144px;
+    margin: 41px 0;
     font-family: 'Fira Sans', sans-serif;
+    margin-left: 143px;
+}
+.blogContainer h2{
+    margin-bottom: 10px;
 }
 .form-control{
     padding: 6px;
