@@ -53,25 +53,29 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    font-size: 16px;
+    margin: 50px 120px;
 }
+
+   
 .hello{
-    font-size:65px ;
+    font-size:3em;
     font-family: 'Fira Sans', sans-serif;
 
 }
 .name{
     font-weight: bold;
-    font-size: 50px;
+    font-size: 3em;
     font-family: 'Fira Sans', sans-serif;
 
 }
 .about{
-    font-size: 45px;
+    font-size: 2.5em;
     font-family: 'Fira Sans', sans-serif;
 
 }
 .moreabout{
-    font: 22px;
+    font-size: 1.3em;
     font-family: 'Fira Sans', sans-serif;
     margin-top: 20px;
 
@@ -82,7 +86,7 @@
     color: white;
     background-color: #C4D7E0;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 0.8em;
     margin: 15px 3px;
     border: none;
     cursor: pointer;
@@ -95,11 +99,11 @@
 }
 .contactForm{
     font-family: 'Fira Sans', sans-serif;
-    padding: 0 100px;
-    padding-top: 100px;
+   /* padding: 0 100px;*/
+   /* padding-top: 100px;*/
     display: flex;
     flex-direction: column;
-    
+    margin: 65px 65px;
 }
 .contactForm h1{
     font-family: 'Fira Sans', sans-serif;
@@ -109,18 +113,18 @@
     padding: 10px;
 }
 .form-text{
-    font-size: 10px;
+    font-size: 0.7em;
 
 }
 #emailHelp{
-    font-size: 8px;
+    font-size: 0.6em;
     color: midnightblue;
     margin: 0 5px;
 }
 .contactForm form div{
 display: flex;
 flex-direction: column;
-width: 30vw;
+width: auto;
 border-radius: 5px;
 padding: 10px;
 }
@@ -158,8 +162,11 @@ padding: 10px;
     border-radius: 5px;
     
 }
-.devInfo {
-    padding: 10px 12px;
+.dev2{
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 40px;
+    
+    margin-left: 60px;
 }
 .intro h2{
     font-family: 'Fira Sans', sans-serif;
@@ -169,7 +176,7 @@ padding: 10px;
     height: 8px;
     width: 200px;
     background-color: red;
-    margin-left: 56px;
+    margin-left: 1.25em;
 }
 .skillMeter{
     display: flex;
@@ -182,18 +189,18 @@ padding: 10px;
 .seventy5{
     width: 250px;
     background-color: green;
-    margin-left: 47px;
+    margin-left: 2em;
 }
 .fifty{
     width: 180px;
     background-color: yellow;
-    margin-left: 63px;
+    margin-left: 1.75em;
     
 }
 .twenty5{
     width: 90px;
     background-color: red;
-    margin-left: 2px;
+    margin-left: 0.8em;
 }
 .hamburger{
     position: absolute;
@@ -211,9 +218,12 @@ padding: 10px;
     transform: translate(-443px, 0px);
     position: absolute;
 }
-@media (max-width:1615px) {
+@media (max-width:1500px) {
 *{
     /*background-color: red;*/
+}
+.devInfo{
+    font-size: 10px;
 }
 .sidebar{
     /*transform: translate(-443px, 0px);
@@ -222,5 +232,20 @@ padding: 10px;
 .devPic{
     display: none;
 }
-.intro, 
+.blogContainer{
+    margin-left:-120px;
+    margin-top:60px;
+} 
+.contactForm{
+    margin-left:10px;
+}
+.form-check-label{
+    font-size:12px;
+}
+.blogContainer h1 {
+font-size: 30px;
+}
+.dev2{
+    margin-left: 15px;
+}
 }
